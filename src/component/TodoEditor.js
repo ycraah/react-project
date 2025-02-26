@@ -1,6 +1,7 @@
+import { useState } from "react";
 import "./TodoEditor.css";
 
-const TodoEditor = () => {
+const TodoEditor = ({ onCreate }) => {
   return (
     <div className="TodoEditor">
       <h4>Todo 작성하기</h4>
